@@ -1,5 +1,11 @@
-# webpack + MDX
+# webpack 的小案例
 
-```sh
-yarn && yarn start
+## 开始
+
+执行命令
+
+```
+yarn
+# or
+yarn install
 ```

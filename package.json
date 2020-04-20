@@ -1,0 +1,30 @@
+{
+  "name": "webpack-example",
+  "version": "1.5.8",
+  "description": "",
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@mdx-js/loader": "^1.5.8",
+    "@mdx-js/mdx": "^1.5.8",
+    "babel-loader": "^8.0.5",
+    "core-js": "3",
+    "lerna": "^3.20.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.2.2",
+    "webpack": "4.28.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
