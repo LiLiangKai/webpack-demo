@@ -1,0 +1,10 @@
+{
+  "name": "@webpack-demo/demo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "../../node_modules/.bin/webpack -c ./webpack.config.js",
+    "start": "../../node_modules/.bin/webpack-dev-server -c ./webpack.config.js"
+  }
+}

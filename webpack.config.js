@@ -3,7 +3,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.jsx?$/,
         use: 'babel-loader'
       },
       {
@@ -11,5 +11,9 @@ module.exports = {
         use: ['babel-loader', '@mdx-js/loader']
       }
     ]
-  }
+  },
+  resolve: {
+    // 自动解析确定的扩展
+    extensions: [ ".js", '.jsx', ".ts", ".tsx" ]
+  },
 }

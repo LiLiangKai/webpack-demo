@@ -1,9 +1,9 @@
 const path = require('path')
 module.exports = {
   mode: 'production', // 设置打包模式
-  entry: path.join(__dirname, 'app.js'),
+  entry: [path.join(__dirname, 'app.js')],
   // entry: {
-  //   app: path.join(__dirname, 'app.js')
+  //   gg: path.join(__dirname, 'app.js')
   // },
   output: {
     path: path.join(__dirname, 'dist'),
